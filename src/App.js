@@ -37,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+          <h1>Statistics</h1>
           <Dashboard dashboardData$={dashboardData$} />
       </div>
     );
